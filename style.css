@@ -1,0 +1,45 @@
+.cover{
+  background-image: url("https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-9/79434957_154020946002694_5463669953561362432_n.jpg?_nc_cat=110&_nc_sid=6e5ad9&_nc_ohc=HJdbEAEiQ2MAX8_ED7v&_nc_ht=scontent-sea1-1.xx&oh=4333dc4715fe3abef4f00c0d8a242713&oe=5F02CC88");
+  background-position: center;
+  height: 60vh;
+  background-size: cover;
+}
+
+.card{
+  height: 40vh;
+}
+
+.about-pic{
+  border-radius: 50%;
+  height: 30vh;
+}
+
+
+.speech-bubble {
+	position: relative;
+	background: #00aabb;
+	border-radius: .4em;
+}
+
+.speech-bubble:after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 0;
+	height: 0;
+	border: 20px solid transparent;
+	border-right-color: #00aabb;
+	border-left: 0;
+	margin-top: -20px;
+	margin-left: -20px;
+}
+
+.main-font{
+  font-family: 'Dancing Script', cursive;
+  color: white;
+}
+
+/* .scroll-img{
+  height: 50vh;
+} */
