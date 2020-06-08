@@ -9,6 +9,11 @@
   height: 40vh;
 }
 
+.card2{
+  height: 25vh;
+  background-color: white;
+}
+
 .about-pic{
   border-radius: 50%;
   height: 30vh;
