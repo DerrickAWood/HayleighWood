@@ -38,7 +38,15 @@
             <a class="nav-link" href="#connect">Connect<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="#projects">See My Work</a>
+            <a class="nav-link" data-toggle="modal" data-target=".bd-example-modal-xl">Gallery</a>
+            <div class="modal fade bd-example-modal-xl" tabindex="-1" role="dialog"
+              aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                  ...
+                </div>
+              </div>
+            </div>
           </li>
         </ul>
       </div>
@@ -115,16 +123,9 @@
     </div>
     <div class="row mt-2 mb-5">
       <div class="col-12">
-        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target=".bd-example-modal-xl">Gallery</button>
 
-        <div class="modal fade bd-example-modal-xl" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel"
-          aria-hidden="true">
-          <div class="modal-dialog modal-xl" role="document">
-            <div class="modal-content">
-              ...
-            </div>
-          </div>
-        </div>
+
+
       </div>
     </div>
   </div>

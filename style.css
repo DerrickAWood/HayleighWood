@@ -40,6 +40,6 @@
   color: white;
 }
 
-/* .scroll-img{
-  height: 50vh;
-} */
+li{
+  cursor: pointer;
+}
