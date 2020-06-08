@@ -5,6 +5,10 @@
   background-size: cover;
 }
 
+.bg-color{
+  background-color: rgb(245, 245, 245);
+}
+
 .card{
   height: 50vh;
 }
@@ -42,7 +46,7 @@
 
 .main-font{
   font-family: 'Dancing Script', cursive;
-  color: white;
+  color: black;
 }
 
 li{
