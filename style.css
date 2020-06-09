@@ -24,26 +24,6 @@
 }
 
 
-.speech-bubble {
-	position: absolute;
-	background: #00aabb;
-	border-radius: .4em;
-}
-
-.speech-bubble:after {
-	content: '';
-	position: absolute;
-	left: 0;
-	top: 50%;
-	width: 0;
-	height: 0;
-	border: 20px solid transparent;
-	border-right-color: #00aabb;
-	border-left: 0;
-	margin-top: -20px;
-	margin-left: -20px;
-}
-
 .main-font{
   font-family: 'Dancing Script', cursive;
   color: black;
@@ -56,6 +36,10 @@ li{
 
 .modal-img{
   height: 15vh;
+}
+
+.display-img{
+  height: 25vh;
 }
 
 .hover:hover{
