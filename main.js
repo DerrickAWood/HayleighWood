@@ -5,7 +5,7 @@ function facebook(){
 function email(){
   // @ts-ignore
   // swal("woodwooksphotography@outlook.com");
-  window.location.href = "mailto:woodwooksphotography@outlook.com";
+  window.location.href = "mailto:woodworksphotography@outlook.com";
 }
 
 function cell(){
