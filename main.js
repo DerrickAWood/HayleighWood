@@ -4,7 +4,8 @@ function facebook(){
 
 function email(){
   // @ts-ignore
-  swal("woodwooksphotography@outlook.com");
+  // swal("woodwooksphotography@outlook.com");
+  window.location.href = "mailto:woodwooksphotography@outlook.com";
 }
 
 function cell(){
